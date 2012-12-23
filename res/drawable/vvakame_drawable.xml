@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- left leg -->
+    <item
+        android:bottom="0dp"
+        android:left="100dp"
+        android:right="160dp"
+        android:top="313dp">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/vvakame_yellow"
+                android:startColor="@color/vvakame_orange" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/black" />
+
+            <corners
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="150dp"
+                android:topRightRadius="150dp" />
+        </shape>
+    </item>
+
+    <!-- right leg -->
+    <item
+        android:bottom="0dp"
+        android:left="150dp"
+        android:right="110dp"
+        android:top="313dp">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:endColor="@color/vvakame_yellow"
+                android:startColor="@color/vvakame_orange" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/black" />
+
+            <corners
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="150dp"
+                android:topRightRadius="150dp" />
+        </shape>
+    </item>
+
+    <!-- tail, end -->
+    <item
+        android:bottom="240dp"
+        android:left="200dp"
+        android:right="25dp"
+        android:top="130dp">
+        <rotate android:fromDegrees="-35" >
+            <shape android:shape="rectangle" >
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+
+                <solid android:color="@color/vvakame_yellow" />
+
+                <corners android:radius="30dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- tail, inner -->
+    <item
+        android:bottom="120dp"
+        android:left="148dp"
+        android:right="65dp"
+        android:top="160dp">
+        <rotate android:fromDegrees="-15" >
+            <shape android:shape="rectangle" >
+                <stroke
+                    android:width="15dp"
+                    android:color="@color/vvakame_yellow" />
+
+                <solid android:color="@android:color/transparent" />
+
+                <corners android:bottomRightRadius="30dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- tail, stroke, inside -->
+    <item
+        android:bottom="130dp"
+        android:left="135dp"
+        android:right="78dp"
+        android:top="150dp">
+        <rotate android:fromDegrees="-15" >
+            <shape android:shape="rectangle" >
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+
+                <solid android:color="@android:color/transparent" />
+
+                <corners android:bottomRightRadius="30dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- tail, stroke, outside -->
+    <item
+        android:bottom="110dp"
+        android:left="135dp"
+        android:right="55dp"
+        android:top="150dp">
+        <rotate android:fromDegrees="-15" >
+            <shape android:shape="rectangle" >
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+
+                <solid android:color="@android:color/transparent" />
+
+                <corners android:bottomRightRadius="50dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- body stroke -->
+    <item
+        android:bottom="70dp"
+        android:left="100dp"
+        android:right="110dp"
+        android:top="180dp">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/vvakame_yellow"
+                android:endColor="@color/vvakame_yellow"
+                android:startColor="@color/vvakame_orange" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/black" />
+
+            <corners
+                android:bottomLeftRadius="35dp"
+                android:bottomRightRadius="35dp"
+                android:topLeftRadius="150dp"
+                android:topRightRadius="150dp" />
+        </shape>
+    </item>
+
+    <!-- left ear -->
+    <item
+        android:bottom="190dp"
+        android:left="45dp"
+        android:right="150dp"
+        android:top="0dp">
+        <rotate android:fromDegrees="-10" >
+            <shape android:shape="oval" >
+                <gradient
+                    android:endColor="@color/vvakame_orange"
+                    android:gradientRadius="250"
+                    android:startColor="@color/vvakame_yellow"
+                    android:type="radial" />
+
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- right ear -->
+    <item
+        android:bottom="187dp"
+        android:left="135dp"
+        android:right="60dp"
+        android:top="3dp">
+        <rotate android:fromDegrees="20" >
+            <shape android:shape="oval" >
+                <gradient
+                    android:endColor="@color/vvakame_orange"
+                    android:gradientRadius="250"
+                    android:startColor="@color/vvakame_yellow"
+                    android:type="radial" />
+
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head inner -->
+    <item
+        android:bottom="185dp"
+        android:left="38dp"
+        android:right="53dp"
+        android:top="40dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/vvakame_yellow" />
+
+            <stroke
+                android:width="15dp"
+                android:color="@android:color/transparent" />
+
+            <corners
+                android:bottomLeftRadius="135dp"
+                android:bottomRightRadius="135dp"
+                android:topLeftRadius="90dp"
+                android:topRightRadius="100dp" />
+        </shape>
+    </item>
+
+    <!-- head striped pattern, top left -->
+    <item
+        android:bottom="317dp"
+        android:left="118dp"
+        android:right="168dp"
+        android:top="47dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, top center -->
+    <item
+        android:bottom="316dp"
+        android:left="141dp"
+        android:right="145dp"
+        android:top="48dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, top right -->
+    <item
+        android:bottom="315dp"
+        android:left="163dp"
+        android:right="124dp"
+        android:top="49dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, left top -->
+    <item
+        android:bottom="290dp"
+        android:left="50dp"
+        android:right="222dp"
+        android:top="97dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="0dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="7dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, left middle -->
+    <item
+        android:bottom="267dp"
+        android:left="45dp"
+        android:right="223dp"
+        android:top="120dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="0dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="7dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, left bottom -->
+    <item
+        android:bottom="245dp"
+        android:left="45dp"
+        android:right="224dp"
+        android:top="142dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="0dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="0dp"
+                    android:topRightRadius="7dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, right top -->
+    <item
+        android:bottom="285dp"
+        android:left="209dp"
+        android:right="58dp"
+        android:top="102dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="0dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, right middle -->
+    <item
+        android:bottom="262dp"
+        android:left="208dp"
+        android:right="59dp"
+        android:top="125dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="0dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head striped pattern, right bottom -->
+    <item
+        android:bottom="240dp"
+        android:left="207dp"
+        android:right="60dp"
+        android:top="147dp">
+        <rotate
+            android:fromDegrees="2"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/vvakame_orange" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="0dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="0dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head stroke -->
+    <item
+        android:bottom="185dp"
+        android:left="38dp"
+        android:right="53dp"
+        android:top="40dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/transparent" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/black" />
+
+            <corners
+                android:bottomLeftRadius="135dp"
+                android:bottomRightRadius="135dp"
+                android:topLeftRadius="90dp"
+                android:topRightRadius="100dp" />
+        </shape>
+    </item>
+
+    <!-- body inner -->
+    <item
+        android:bottom="70dp"
+        android:left="100dp"
+        android:right="110dp"
+        android:top="180dp">
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="90"
+                android:centerColor="@color/vvakame_yellow"
+                android:endColor="@color/vvakame_yellow"
+                android:startColor="@color/vvakame_orange" />
+
+            <stroke
+                android:width="20dp"
+                android:color="@android:color/transparent" />
+
+            <corners
+                android:bottomLeftRadius="35dp"
+                android:bottomRightRadius="35dp"
+                android:topLeftRadius="150dp"
+                android:topRightRadius="150dp" />
+        </shape>
+    </item>
+
+    <!-- left eye -->
+    <item
+        android:bottom="275dp"
+        android:left="103dp"
+        android:right="187dp"
+        android:top="81dp">
+        <rotate
+            android:fromDegrees="6"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@android:color/black" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- right eye -->
+    <item
+        android:bottom="271dp"
+        android:left="181dp"
+        android:right="109dp"
+        android:top="85dp">
+        <rotate
+            android:fromDegrees="-3"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@android:color/black" />
+
+                <corners
+                    android:bottomLeftRadius="7dp"
+                    android:bottomRightRadius="7dp"
+                    android:topLeftRadius="7dp"
+                    android:topRightRadius="7dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- nose, left -->
+    <item
+        android:bottom="247dp"
+        android:left="113dp"
+        android:right="155dp"
+        android:top="121dp">
+        <shape android:shape="oval" >
+            <stroke
+                android:dashGap="25dp"
+                android:dashWidth="60dp"
+                android:width="5dp"
+                android:color="@android:color/black" />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- nose, right -->
+    <item
+        android:bottom="247dp"
+        android:left="140dp"
+        android:right="128dp"
+        android:top="121dp">
+        <shape android:shape="oval" >
+            <stroke
+                android:dashGap="25dp"
+                android:dashWidth="45dp"
+                android:width="5dp"
+                android:color="@android:color/black" />
+
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <!-- left arm -->
+    <item
+        android:bottom="116dp"
+        android:left="31dp"
+        android:right="229dp"
+        android:top="194dp">
+        <rotate
+            android:fromDegrees="-70"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <gradient
+                    android:angle="90"
+                    android:endColor="@color/vvakame_orange"
+                    android:startColor="@color/vvakame_yellow" />
+
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+
+                <corners
+                    android:bottomLeftRadius="150dp"
+                    android:bottomRightRadius="150dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- right arm -->
+    <item
+        android:bottom="150dp"
+        android:left="249dp"
+        android:right="11dp"
+        android:top="157dp">
+        <rotate
+            android:fromDegrees="72"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <gradient
+                    android:angle="90"
+                    android:endColor="@color/vvakame_orange"
+                    android:startColor="@color/vvakame_yellow" />
+
+                <stroke
+                    android:width="10dp"
+                    android:color="@android:color/black" />
+
+                <corners
+                    android:bottomLeftRadius="150dp"
+                    android:bottomRightRadius="150dp"
+                    android:topLeftRadius="10dp"
+                    android:topRightRadius="10dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- base -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/transparent" />
+
+            <!--
+            <stroke
+                android:width="1dp"
+                android:color="@android:color/background_light" />
+            -->
+
+            <size
+                android:height="400dp"
+                android:width="300dp" />
+        </shape>
+    </item>
+
+</layer-list>

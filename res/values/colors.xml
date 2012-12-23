@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="android">#ffa4c639</color>
+    <color name="vvakame_yellow">#fffff568</color>
+    <color name="vvakame_orange">#fff7941e</color>
 </resources>
