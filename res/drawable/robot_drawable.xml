@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- left antenna's stroke -->
+    <item
+        android:bottom="350dp"
+        android:left="85dp"
+        android:right="248dp"
+        android:top="0dp">
+        <rotate
+            android:fromDegrees="-30"
+            android:pivotX="80%"
+            android:pivotY="0%"
+            android:toDegrees="00" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@android:color/white" />
+
+                <corners android:radius="50dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- right antenna's stroke -->
+    <item
+        android:bottom="350dp"
+        android:left="248dp"
+        android:right="85dp"
+        android:top="0dp">
+        <rotate
+            android:fromDegrees="30"
+            android:pivotX="20%"
+            android:pivotY="0%"
+            android:toDegrees="00" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@android:color/white" />
+
+                <corners android:radius="50dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- head -->
+    <item
+        android:bottom="160dp"
+        android:left="60dp"
+        android:right="60dp"
+        android:top="25dp">
+        <shape android:shape="oval" >
+            <solid android:color="@color/android" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- left antenna -->
+    <item
+        android:bottom="360dp"
+        android:left="100dp"
+        android:right="253dp"
+        android:top="10dp">
+        <rotate
+            android:fromDegrees="-30"
+            android:pivotX="80%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/android" />
+
+                <corners android:radius="50dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- right antenna -->
+    <item
+        android:bottom="360dp"
+        android:left="253dp"
+        android:right="100dp"
+        android:top="10dp">
+        <rotate
+            android:fromDegrees="30"
+            android:pivotX="20%"
+            android:pivotY="0%"
+            android:toDegrees="0" >
+            <shape android:shape="rectangle" >
+                <solid android:color="@color/android" />
+
+                <corners android:radius="50dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <!-- left eye -->
+    <item
+        android:bottom="327dp"
+        android:left="120dp"
+        android:right="222dp"
+        android:top="76dp">
+        <shape android:shape="oval" >
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- right eye -->
+    <item
+        android:bottom="327dp"
+        android:left="222dp"
+        android:right="120dp"
+        android:top="76dp">
+        <shape android:shape="oval" >
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- left leg's stroke -->
+    <item
+        android:bottom="0dp"
+        android:left="104dp"
+        android:right="188dp"
+        android:top="300dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/white" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- right leg's stroke -->
+    <item
+        android:bottom="0dp"
+        android:left="188dp"
+        android:right="104dp"
+        android:top="300dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/white" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- body -->
+    <item
+        android:bottom="82dp"
+        android:left="60dp"
+        android:right="60dp"
+        android:top="136dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/android" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/white" />
+
+            <corners
+                android:bottomLeftRadius="22dp"
+                android:bottomRightRadius="22dp" />
+            <!-- android:radius="50dp" -->
+        </shape>
+    </item>
+
+    <!-- left arm -->
+    <item
+        android:bottom="119dp"
+        android:left="0dp"
+        android:right="291dp"
+        android:top="130dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/android" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/white" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- right arm -->
+    <item
+        android:bottom="119dp"
+        android:left="291dp"
+        android:right="0dp"
+        android:top="130dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/android" />
+
+            <stroke
+                android:width="10dp"
+                android:color="@android:color/white" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- left leg -->
+    <item
+        android:bottom="10dp"
+        android:left="114dp"
+        android:right="198dp"
+        android:top="300dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/android" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- right leg -->
+    <item
+        android:bottom="10dp"
+        android:left="198dp"
+        android:right="114dp"
+        android:top="300dp">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/android" />
+
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+
+    <!-- base -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@android:color/transparent" />
+
+            <!--
+                 <stroke 
+                 android:width="1dp"
+                 android:color="@android:color/background_light" />
+            -->
+
+            <size
+                android:height="422dp"
+                android:width="360dp" />
+        </shape>
+    </item>
+
+</layer-list>
