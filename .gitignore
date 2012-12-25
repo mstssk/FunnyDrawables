@@ -1,4 +1,5 @@
-gen/
-bin/
+.classpath
 .project
-.settings/
+.settings
+bin
+gen
