@@ -1,4 +1,4 @@
-package net.mstssk.apps.shape_test;
+package net.mstssk.apps.funny_drawables;
 
 import android.app.Activity;
 import android.content.Context;
