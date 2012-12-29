@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:background="@android:color/transparent"
         android:contentDescription="@string/app_name"
-        android:scaleType="center"
+        android:scaleType="fitCenter"
         android:src="@drawable/vvakame_drawable" />
 
 </RelativeLayout>

@@ -492,8 +492,8 @@
     <!-- right eye -->
     <item
         android:bottom="271dp"
-        android:left="181dp"
-        android:right="109dp"
+        android:left="179dp"
+        android:right="111dp"
         android:top="85dp">
         <rotate
             android:fromDegrees="-3"
